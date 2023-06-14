@@ -1,25 +1,25 @@
 {
-  "name": "raganork-md",
+  "name": "roman-md",
   "version": "4.0.0",
-  "description": "Raganork whatsapp bot- Multi device version.",
+  "description": "MADE BY AKHIL-SER ",
   "scripts": {
     "start": "pm2 start . --attach --name Raganork"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/souravkl11/raganork-md.git"
+    "url": "git+https://github.com/akhilroop/raganork-md.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "multi-device"
   ],
-  "author": "Sourav",
-  "developer": "@souravkl11",
+  "author": "Akhilroop",
+  "developer": "@akhilroop",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/souravkl11/raganork#readme",
+  "homepage": "https://github.com/akhilroop/.com",
   "dependencies": {
-    "@adiwajshing/baileys": "git+https://github.com/souravkl11/Baileys.git",
+    "@adiwajshing/baileys": "git+https://github.com/akhilroop/.com",
     "@whiskeysockets/baileys": "6.0.0",
     "@adiwajshing/keyed-db": "0.2.4",
     "acrcloud": "1.4.0",
