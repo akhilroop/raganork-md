@@ -5,13 +5,13 @@
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/akhilroop/whatsapp-bot",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"."
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -26,7 +26,7 @@
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
             "required": true,
-            "value":"true"
+            "value":"false"
         },
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"AKHIL-SER;ROMAN-SER"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -56,7 +56,7 @@
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"Raganork,SKL11,918089807813,https://i.imgur.com/B2YWSLk.jpg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -71,7 +71,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"918089807813"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
@@ -91,6 +91,6 @@
       "url": "heroku-community/apt"
       },
       {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      "url": "https://github.com/akhilroop"
       }]
   }
